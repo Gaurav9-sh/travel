@@ -1,0 +1,548 @@
+body{
+    box-sizing: border-box;
+}
+
+html{
+    
+    font-size: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media (max-width: 1025px){
+    html{
+        font-size: 85%;
+    }
+}
+@media (max-width: 998px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 866px){
+    html{
+        font-size: 60%
+    }
+}
+
+@media (max-width: 650px){
+    html{
+        font-size: 50%;
+    }
+}
+
+
+@media (max-width: 560px){
+    html{
+        font-size: 40%;
+    }
+}
+@media (max-width: 490px){
+    html{
+        font-size:30%
+    }
+}
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* border: 2px solid green; */
+    margin-left: 3rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+.links{
+    /* border: 2px solid blue; */
+    width: 50rem;
+    display: flex;
+    gap: 2rem;
+   
+}
+.link{
+    /* border: 2px solid yellow; */
+    font-size: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#sign{
+    font-size: 1.2rem;
+    height: 2.2rem;
+    width: 7rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 0.1rem solid;
+}
+
+.links a:hover{
+    color: pink;
+}
+#sign:hover{
+    color: pink;
+}
+
+.second{
+    /* border: 2px solid red; */
+    height: 35rem;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.first{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.headingthree{
+    color: rgb(214, 73, 51);
+    margin-left: 3rem;
+}
+
+.headingone{
+    color: rgb(41, 41, 89);
+    margin-left: 3rem;
+    font-size: 5.5rem;
+    /* box-shadow: 5px 5px 85px rgb(216, 113, 76);
+    border-radius: 2rem; */
+}
+
+.lower button {
+   height: 2.6rem;
+   margin-top: 1rem;
+   background-color: rgb(233, 156, 14);
+   margin-left: 3rem;
+   border-radius: 10px;
+   border: none;
+   width: 7rem;
+   font-size: 1rem;
+   margin-right: 1rem;
+   color: white;
+   box-shadow: 2px 2px 2px 4px rgb(227, 204, 163) ;
+}
+
+.lower button:hover{
+    background-color: rgba(235, 201, 30, 0.826);
+    cursor: pointer;
+}
+.girl{
+    /* border: 2px solid green; */
+    width: 50%;
+}
+
+.girl img{
+    height: 35rem;
+    margin-left: 4rem;
+}
+
+.lower{
+    display: flex;
+    /* border: 2px solid green; */
+    height:7rem ;
+}
+
+.play{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 6rem;
+}
+
+.play img{
+    height: 7rem;  
+}
+
+.play p{
+    margin-top: 1.6rem;
+    font-size: 1.2rem;
+    color: grey; 
+}
+
+.play p:hover{
+    color: rgb(58, 58, 113);
+    cursor: pointer;
+}
+.third{
+    /* border: 2px solid black; */
+    height: 8rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+.third h3{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: rgb(139, 139, 195);;
+}
+
+.third h1{
+    font-size: 3.7rem;
+    color: rgb(41, 41, 89);;
+}
+
+.flight{
+    /* border: 2px solid green; */
+    height: 22rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    padding-left: 3rem;
+    gap: 4rem;
+}
+
+.image{
+    /* border: 2px solid red; */
+    width: 17rem;
+}
+
+.image img{
+   margin-left: 6rem;
+   margin-top: 1rem;
+   height: 6rem;
+}
+
+.image:hover{
+    box-shadow: 5px 5px 25px rgb(240, 152, 168);
+    border-radius: 2rem;
+}
+
+.destination{
+    /* border: 2px solid red; */
+    height: 8rem;
+    margin-top: 3rem;
+}
+
+.destination{
+    text-align: center;
+}
+
+.destination h3{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: rgb(139, 139, 195);
+}
+
+.destination h1{
+    font-size: 3.7rem;
+    color: rgb(41, 41, 89);
+}
+
+.building{
+    /* border: 2px solid green; */
+    height: 31rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 4rem;
+    padding-left: 3rem;
+    width: 77rem;
+    margin-left: 3rem;
+    justify-content: center;
+}
+.rome{
+    /* border: 2px solid red; */
+    width: 18rem;
+    margin-top: 1rem;
+    height: 23rem;
+}
+.rome img{
+    /* border: 2px solid blue; */
+    box-shadow: 25px 12px 25px rgb(156, 148, 148); 
+    border-radius: 1.5rem;
+    width: 17rem;
+    height: 22rem;
+}
+
+.baap{
+    /* border: 2px solid; */
+    margin-top: 5rem;
+    height: 33rem;
+    width: 80rem;
+}
+.easy{
+    /* border: 2px solid red; */
+    color: rgb(113, 113, 169); 
+}
+.easy h3{
+    margin-left: 3rem;
+}
+.book{
+    /* border: 2px solid green; */
+    height: 30rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 20rem;
+}
+
+.left{
+    /* border: 2px solid purple; */
+    width: 42rem;
+    height: 30rem;
+}
+
+.left h1{
+    margin-left: 2.7rem;
+    color: rgb(41, 41, 89);
+    font-size: 3.5rem;
+    /* border: 2px solid red; */
+    width: 32rem;
+    height: 8rem;
+}
+.right{
+    /* border: 2px solid brown; */
+    width: 30rem;
+    margin-right: 3rem;
+    
+}
+
+.right img{
+    /* border: 2px solid; */
+    margin-left: 2rem;
+    margin-top: 2rem;
+    box-shadow: 5px 25px 35px rgb(156, 148, 148); 
+    border-radius: 2rem;
+    width: 22rem;
+    height: 24rem;
+}
+.dest{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 34rem;
+    height: 7rem;
+}
+.logo1{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /* border: 2px solid brown; */
+    width: 3rem;
+    height: 3.5rem;
+}
+.logo1 img{
+    width: 3rem;
+    height: 3.5rem;
+}
+.logo2{
+    margin-left: 1.6rem;
+}
+.logo2 h3{
+    font-size: 1.2rem;
+    margin-top: 2.8rem;
+    color: rgb(74, 74, 140);
+}
+
+.logo2 p{
+    font-size: 1rem;
+    color:rgb(113, 113, 171) ;
+}
+
+.people{
+    /* border: 2px solid; */
+    height: 15rem;
+    display: flex;
+    width: 80rem;
+    margin-top: 8rem;
+    gap: 10rem;
+
+}
+.test{
+    /* border: 2px solid red; */
+    width: 30rem;
+    height: 14rem;
+}
+.test h3{
+    color: rgb(74, 74, 140);
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.test h1{
+    color: rgb(31, 31, 87);
+    font-size: 3.7rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.mike{
+    /* border: 2px solid green; */
+    width: 40rem;
+    height: 14rem;
+    box-shadow: 5px 5px 25px rgb(134, 129, 129);
+}
+
+.mike img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 4.2rem;
+    height: 4.2rem;
+}
+
+.mike p{
+    color: rgba(110, 110, 203, 0.724);
+    font-size: 1.1rem;
+    margin-left: 2.4rem;
+    margin-top: 1rem;
+}
+
+.brands{
+    /* border: 2px solid red; */
+    height: 12rem;
+    display: flex;
+    gap: 4rem;
+    margin-top: 3rem;
+    width: 80rem;
+}
+
+.brand{
+    margin-top: 2rem;
+    /* border: 2px solid; */
+    height: 5rem;
+    width: 10rem;
+    margin-left: 2rem;
+    
+}
+
+.brand img{
+    /* border: 2px solid green; */
+    width: 9rem;
+    height: 3rem;
+}
+.subscribe{
+    /* border: 2px solid red; */
+    margin-top: 7%;
+    height: 20rem;
+    text-align: center;
+    margin-left: 5%;
+    width: 70rem;
+    /* background: url('https://img.freepik.com/free-photo/stylish-soft-blue-curve-lines-abstract-background_1017-19950.jpg');
+    background-repeat:no-repeat;
+    background-size: cover; */
+
+}
+
+.subscribe h2{
+    font-size: 2em;
+    color: rgb(43, 43, 103);
+}
+
+.red{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 0.5%;
+    margin-top: 6%;
+    height: 3em;
+}
+
+.form{
+    text-align: center;
+    width: 26%;
+    box-shadow: 2px 2px 10px  rgb(81, 78, 78);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4em;
+    margin-left: 30%;
+}
+
+.bigbtn button{
+    height: 3.6em;
+    width: 7rem;
+    border-radius: 5px;
+    background-color: rgb(238, 112, 112);
+    color: whitesmoke;
+    border: none;   
+    font-size: 0.9rem;
+}
+
+.bigbtn button:hover{
+    background-color: rgb(235, 19, 19);
+}
+
+.lower{
+    /* border: 2px solid red; */
+    height: 15rem;
+    display: flex;
+   
+    gap: 5%;
+    font-family: cursive;
+}
+
+.table{
+    /* border: 2px solid green; */
+    width: 33%;
+    color: rgb(33, 33, 83);
+}
+
+.side{
+    
+    /* border: 2px solid black; */
+    width: 5%;
+    height: 80%;
+    
+}
+
+.one img{
+    height: 3rem;  
+}
+
+.one p{
+    color: green;
+    margin-bottom: 15px;
+}
+.one p:hover{
+    color: rgb(93, 93, 135);
+}
+.foot{
+    display: block;
+    border: 2px solid grey;
+}
+
+.jadoo{
+    /* border: 2px solid yellow; */
+    margin-left: 5%;
+    width: 20%;
+}
+
+.jadoo h1{
+    color: rgb(43, 43, 82);
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.jadoo p{
+    color:  rgb(33, 33, 83);
+    margin-top: 2%;
+}
+
+.contacts{
+    margin-top: 10%;
+}
+
+.contacts{
+    color: rgb(33, 33, 83);
+    /* border: 2px solid green; */
+}
+
+#unique{
+    margin-top: 20%;
+}
+
+.des{
+    /* border: 2px solid red; */
+    height: 2rem;
+    margin-top: 5%;
+    text-align: center; 
+}
+
+.des p{
+    color: rgb(104, 86, 86);
+    font-family: cursive;
+}
+
+
+  
+
